@@ -16,3 +16,28 @@ div.container{
     width: 100%;
     height: auto;
 }
+
+.entries{
+    display:flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+}
+
+.entries input{
+    margin-top: 5%;
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.entries button{
+    background-color : blue;
+    color: white;
+    margin-top: 3%;
+    border-radius: 8px;
+    height:50px;
+    width: 100%;
+}
