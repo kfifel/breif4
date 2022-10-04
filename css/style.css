@@ -10,3 +10,68 @@ body{
 div.container{
     margin: 1% 5%;
 }
+h2{
+    margin-top: 2rem;
+    color: #13366d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+section > p {
+    margin-top: 2rem;
+    color: #adacab;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px; 
+}
+.button1 {
+    margin: 10px;
+    background-color: #13366d;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 11px #13366d;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    width: 40%;
+}
+.button1:hover {
+    color: cadetblue ;
+}
+.button2 {
+    margin: 10px;
+    background-color: #fff3d9;
+    border-radius: 7px;
+    border: solid #13366d 1px;
+    color: #13366d;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 20px; 
+    cursor: pointer;
+    width: 55%;
+}
+.button2:hover {
+    background-color: #0c459f;
+    color: white;
+    box-shadow: 0px 2px 1px black;
+}
+.sub_container {
+    border: solid 2px #d1cec8;
+    border-radius: 4px; 
+    padding: 13px;
+    margin-top: 5px;
+    width: 83%;
+    margin-left: 20px;
+}
+.sub_container p {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price {
+    font-size: 30px;
+    font-weight: bold;
+}
+span{
+    color: #989794;
+}
