@@ -10,3 +10,9 @@ body{
 div.container{
     margin: 1% 5%;
 }
+
+.subscribe img{
+    padding: 8%;
+    width: 100%;
+    height: auto;
+}
