@@ -3,10 +3,67 @@
     margin: 0;
     padding: 0;
 }
-
-body{
-    background-color: #fbf7ee;
-}
 div.container{
     margin: 1% 5%;
 }
+.titre-parag {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: black;
+    width: 100vw;
+    height: 50vh;
+    margin-left: -19px;
+}
+h2 {
+    color: white;
+    font-size: 15px;
+    margin: 11px;
+    padding: 11px;
+}
+.titre-parag p {
+    color: white;
+    margin-left: 10px;
+}
+.Buttons {
+    display: flex;
+    align-items: center;  
+    padding: 14px;
+    margin-top: 10px;
+      
+}
+.sign_in {
+    display: flex;
+    align-items: center;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.sign_in p {
+    height: 2rem;
+    font-size: 11px;
+    margin-top: 9px;
+    margin-right: 16px;
+    color: black;
+}
+.sign_in:hover {
+    cursor: pointer;
+    box-shadow: 1px 3px rgb(211, 211, 199);
+}
+
+.exploring {
+    width: 8rem;
+    height: 3rem;
+    margin-left: 26px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);         
+    color: white;
+}
+.exploring:hover {
+    font-size: 15px;
+    color: beige;
+    cursor: pointer;
+}
+     
