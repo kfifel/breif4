@@ -3,10 +3,74 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     background-color: #fbf7ee;
 }
 div.container{
     margin: 1% 5%;
+}
+*{
+    font-family: "Gill Sans", sans-serif;
+}
+nav{
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    color: black;
+    font-weight: bold;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 5px;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.signeInButton{
+    padding: .5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: linen;
+}
+.signeInButton:hover{
+    padding: .45rem;
+    border: 1px solid #597bbd;
+    border-radius: 5px;
+    background-color: forestgreen;
+    opacity: 0.5;
+    color: white;
+}
+
+.tryForFreeButton{
+    background-color: #0c459e;
+    padding: .5rem;
+    border: none;
+    border-bottom: 3px solid black;
+    border-radius: 5px;
+    color: white;
+}
+
+.tryForFreeButton:hover{
+    cursor: pointer;
+    background-color: #597bbd;
+    padding: .5rem;
+    border: 1px solid linen;
+    border-radius: 5px;
+    color: white;
 }
