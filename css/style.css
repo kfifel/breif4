@@ -3,6 +3,39 @@
     margin: 0;
     padding: 0;
 }
+<<<<<<< HEAD
+div.logoImg .logo{
+    display: inline-flexbox;
+    width: 15%;
+    padding: 2%;
+}
+.leftImg img{
+   float: left;
+   width: 50%;
+   padding: 1%;
+}
+h1{
+    margin: 1%;
+    padding: 2%;
+}
+h3{
+    padding: 1%;
+    margin: 2%;
+}
+p{
+    text-decoration: none;
+    font-size: smaller;
+    padding: 1%;
+    margin: 2%;
+}
+.rightImg img{
+   float: right;
+   width: 50%;
+   padding: 1%;
+}
+
+=======
+>>>>>>> b0252b0eb5cc49f6a5d336e9859c0d884ac52acf
 div.container{
     margin: 1% 5%;
 }
