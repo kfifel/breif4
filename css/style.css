@@ -14,15 +14,12 @@ div.container{
     height: 45vh;
     margin-left: -19px;
 }
-h2 {
+.container h2 {
     color: white;
     font-size: 15px;
-    margin: 11px;
-    padding: 11px;
 }
 .titre-parag p {
     color: white;
-    margin-left: 10px;
 }
 .Buttons {
     display: flex;
@@ -39,19 +36,12 @@ h2 {
     border: none;
     border-radius: 5px;
     margin-left: 30px;
-}
-.sign_in p {
-    height: 2rem;
-    font-size: 11px;
-    margin-top: 9px;
-    margin-right: 16px;
-    color: black;
+    font-size: 14px;
 }
 .sign_in:hover {
     cursor: pointer;
     box-shadow: 1px 3px rgb(211, 211, 199);
 }
-
 .exploring {
     width: 8rem;
     height: 3rem;
@@ -100,50 +90,143 @@ h2 {
         display: flex;
     }
     .Buttons {
-        margin-left: 0px;
-        padding-left: 0px;
+        width: 70%;
     }
-    h2 {
+    .container h2 {
         font-size: 25px;
     }
     p {
         font-size: 25px;
     }
     .sign_in {
-        width: 60%;
+        width: 75%;
         height: 70px;
-    }
-    .sign_in p {
-        font-size: 18px;
+        font-size: 17px;
     }
     .exploring {
         width: 230px;
         font-size: 18px;
     }
     .Img-signup {
-        width: 70%;
-        height: 125%;
+        height: 25%;
+        width: 56%;
         display: flex;
-        flex-direction: row;
-        align-self: flex-start;
+        position: absolute;
+        margin-left: 330px;
+        margin-top: 95px;
     }
     .fotos {
         margin-top: 9rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
     }
     .fotos-left1 {
         display: flex;
         flex-direction: column;
-        margin: 2rem;
+        width: 50%;
+        height: 0%;
     }
     .img1 {
-        width: 210px;
+        width: 340px;
+        height: 205px;
         margin-bottom: 1rem;
     }
     .img2 {
         margin-left: 2rem;
+        width: 305px;
+        height: 185px;
+        padding-top: 0px;
+        margin-top: 5px;
     }
-
-    
-
+    .foto-left2 {
+        height: 342px;
+        margin-top: 0px;
+        
+    }
+    .img3 {
+        height: 410px;
+    }
+    .fotos-right1 {
+        width: 86%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+    }
+    .img4 {
+        margin-bottom: 1rem;
+    }
+    .fotos-right2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .img6 {
+        height: 65%;
+        width: 40%;
+        margin-left: 45px;
+    }
+    .img7 {
+        height: 65%;
+        width: 45%;
+        margin-right: 28px;
+        margin-top: 0px;
+    }
+    @media screen and (min-width: 1024px) {
+        .titre-parag {
+            width: 100%;
+            margin-top: 100px;
+            display: flex;
+            flex-direction: row;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .Img-signup {
+            width: 55%;
+            height: 40%;
+            margin-left: 450px;
+            margin-top: 0px;
+        }
+        .fotos {
+            margin-top: 200px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+        .fotos-left1 {
+            width: 26%;
+            text-align: left;
+        }
+        .fotos-right1 {
+            display: flex;
+            flex-direction: column;
+            margin-right: 0px;
+        }
+        .img4 {
+            width: 32%;
+        }
+        .img5 {
+            width: 32%;
+        }
+        .fotos-right2 {
+            width: ;
+            display: flex;
+            flex-direction: column;
+        }
+        .img6 {
+            margin: 0px;
+            width: 90%;
+        }
+        .img7 {
+            height: 47%;
+            width: 90%;
+            margin-top: 20px;
+            margin-right: ;
+        }
+    }
 }
 
