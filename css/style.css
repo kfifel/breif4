@@ -144,26 +144,69 @@ footer .footer{
 }
 .exploring {
     width: 8rem;
+}
+div.logoImg .logo6{
+    display: inline-flexbox;
+    width: 9%;
+    padding: 1%;
+}
+/* ----section tow start---- */
+
+.Post .leftImg img{
+    float: left;
+    /* width: 33%;
+    padding: 5%; */
+    width: 170px;
+    padding: 8px;
+}
+.Post h1{
+    /* margin: 1px; */
+    padding: 2px;
+    margin-top: 17px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.Post h3{
+    font-size: 20px;
+    padding: 5px;
+    margin: 3px;
+    margin-left: 10px;
+}
+.Post p{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    margin: 2px;
+    margin-left: 10px;
+}
+.Post .rightImg img{
+    float: right;
+    width: 170px;
+    padding: 8px;
+
+}
+.Started {
+    width: 9rem;
     height: 3rem;
-    margin-left: 26px;
+    margin-left: 109px;
     border: none;
     border-radius: 5px;
-    background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);         
-    color: white;
+    background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
 }
-.exploring:hover {
+.Started:hover {
     font-size: 15px;
     color: beige;
     cursor: pointer;
 }
+/* ----section tow end---- */
+ /** footer start **/
 
-
-.fotos {
-    margin-top: 6rem;
+footer div{
+    background-color: black;
+    color: white;
 }
-.fotos-left1 {
-    display: flex;
-    justify-content: space-between;
+.summary div{
+    padding: 5%;
 }
 .img1 {
     margin: 10px;
@@ -178,21 +221,34 @@ footer .footer{
     text-align: center;
     margin-top: 20px;
 }
-.fotos-right1 {
+.socialMedia a+a {
+    margin-left: 3%;
+}
+.socialMedia a {
+    color: black;
+    background-color: white;
+    padding: 2%;
+}
+.information div{
     display: flex;
-    justify-content: space-between;
-    height: 8rem;
-    margin: 1rem;
+    flex-direction: column;
+    padding: 5%;
 }
-.fotos-right2 {
-    margin: 1rem;
-    text-align: center;
+.information div h4{
+    margin-bottom: 2%;
 }
-.img7 {
-    margin-top: 1rem;
+.information div ul li{
+    list-style: none;
 }
-
+.information div ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer .footer{
+    padding: 2%;
+}
 @media screen and (min-width: 768px) {
+
     /* ----section tow start---- */
     .Post p{
         text-decoration: none;
@@ -280,9 +336,28 @@ footer div{
         height: 70px;
         font-size: 17px;
     }
-    .exploring {
-        width: 230px;
-        font-size: 18px;
+    .Post h1{
+        padding: 1px;
+        margin-top: 9px;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .Post h3{
+        font-size: 20px;
+        padding: 5px;
+        margin: 3px;
+        margin-left: 170px;
+    }
+    .Post .leftImg img{
+        float: left;
+        width: 170px;
+        padding: 18px;
+    }
+    .Post .rightImg img{
+        float: right;
+        width: 170px;
+        padding: 18px;
+
     }
     .Img-signup {
         height: 22%;
@@ -441,4 +516,38 @@ footer div{
             margin-top: 20px;
         } */
     }
+}
+    .Started {
+        margin-top: 20px;
+        width: 9rem;
+        height: 3rem;
+        margin-left: 109px;
+        border: none;
+        border-radius: 5px;
+        background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
+    }
+/* ----section tow end---- */
+    /* footer */
+footer div{
+display: grid;
+grid-template-columns: 50% 50%;
+grid-template-rows: 100%;
+}
+.information{
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+padding: 5%;
+}
+.socialMedia{
+display: flex;
+}
+.socialMedia a{
+color: black;
+background-color: white;
+height: 15%;
+width: 8%;
+padding: 2%;
+}
+/* footer end*/
+
 }
