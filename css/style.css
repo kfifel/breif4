@@ -2,9 +2,105 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
 }
 div.container{
     margin: 1% 5%;
+}
+div.logoImg .logo{
+    display: inline-flexbox;
+    width: 15%;
+    padding: 2%;
+}
+div.logoImg .logo6{
+    display: inline-flexbox;
+    width: 9%;
+    padding: 1%;
+}
+/* ----section tow start---- */
+
+.Post .leftImg img{
+    float: left;
+    /* width: 33%;
+    padding: 5%; */
+    width: 170px;
+    padding: 8px;
+}
+.Post h1{
+    /* margin: 1px; */
+    padding: 2px;
+    margin-top: 17px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.Post h3{
+    font-size: 20px;
+    padding: 5px;
+    margin: 3px;
+    margin-left: 10px;
+}
+.Post p{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    margin: 2px;
+    margin-left: 10px;
+}
+.Post .rightImg img{
+    float: right;
+    width: 170px;
+    padding: 8px;
+
+}
+.Started {
+    width: 9rem;
+    height: 3rem;
+    margin-left: 109px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
+}
+.Started:hover {
+    font-size: 15px;
+    color: beige;
+    cursor: pointer;
+}
+/* ----section tow end---- */
+ /** footer start **/
+
+footer div{
+    background-color: black;
+    color: white;
+}
+.summary div{
+    padding: 5%;
+}
+.socialMedia a+a {
+    margin-left: 3%;
+}
+.socialMedia a {
+    color: black;
+    background-color: white;
+    padding: 2%;
+}
+.information div{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+.information div h4{
+    margin-bottom: 2%;
+}
+.information div ul li{
+    list-style: none;
+}
+.information div ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer{
+    padding: 2%;
 }
 .titre-parag {
     font-family: Arial, Helvetica, sans-serif;
@@ -97,6 +193,70 @@ div.container{
 }
 
 @media screen and (min-width: 768px) {
+    /* ----section tow start---- */
+    .Post p{
+        text-decoration: none;
+        font-size: 12px;
+        padding: 2px;
+        margin: 2px;
+    }
+    .Post h1{
+        padding: 1px;
+        margin-top: 9px;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .Post h3{
+        font-size: 20px;
+        padding: 5px;
+        margin: 3px;
+        margin-left: 170px;
+    }
+    .Post .leftImg img{
+        float: left;
+        width: 170px;
+        padding: 18px;
+    }
+    .Post .rightImg img{
+        float: right;
+        width: 170px;
+        padding: 18px;
+
+    }
+    .Started {
+        margin-top: 20px;
+        width: 9rem;
+        height: 3rem;
+        margin-left: 109px;
+        border: none;
+        border-radius: 5px;
+        background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
+    }
+/* ----section tow end---- */
+    /* footer */
+footer div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+.information{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 5%;
+}
+.socialMedia{
+    display: flex;
+}
+.socialMedia a{
+    color: black;
+    background-color: white;
+    height: 15%;
+    width: 8%;
+    padding: 2%;
+}
+/* footer end*/
+
+}
     .titre-parag {
         height: 46vh;
     }
@@ -191,6 +351,43 @@ div.container{
         margin-top: 0px;
     }
     @media screen and (min-width: 1024px) {
+         /* ----section tow start---- */
+    .Post .List{
+        /* background-color: #bc38dd; */
+        padding: 20px;
+        margin: 20px;
+        margin-left: 150px;
+
+    }
+    .Post .List p{
+        font-size: large;
+        margin-left: 170px;
+    }
+    .Post .List h1{
+        margin-left: 170px;
+        font-size: 30px;
+    }
+    .Post .leftImg img{
+        float: left;
+        width: 287px;
+        padding: 2px;
+     }
+     .Post .rightImg img{
+        float: right;
+        width: 287px;
+        padding: 2px;
+
+     }
+     .Started {
+        margin-top: 24px;
+        width: 11rem;
+        height: 3rem;
+        margin-left: 155px;
+        border: none;
+        border-radius: 5px;
+        background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
+    }
+        /* ----section tow end---- */
         .titre-parag {
             height: 53vh;
         }
