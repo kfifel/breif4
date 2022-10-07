@@ -194,10 +194,11 @@ div.container{
         margin-top: 24px;
         width: 11rem;
         height: 3rem;
-        margin-left: 127px;
+        margin-left: 127;
         border: none;
         border-radius: 5px;
         background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);         
     }
         /* ----section tow end min-width: 1024px---- */
+        /* ----section tow end---- */
 }
