@@ -102,8 +102,153 @@ footer div{
 footer .footer{
     padding: 2%;
 }
+.titre-parag {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    width: 90vw;
+    height: 40vh;
+}
+.container h2 {
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+.titre-parag p {
+    margin: 5px;
+    color: white;
+    font-size: 17px;
+}
+.Img-signup {
+    margin-left: 50px;
+}
+.Buttons {
+    display: flex;
+    align-items: center;  
+    padding: 14px;
+    margin-top: 10px;
+      
+}
+.sign_in {
+    display: flex;
+    align-items: center;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+.sign_in:hover {
+    cursor: pointer;
+    box-shadow: 1px 3px rgb(211, 211, 199);
+}
+.exploring {
+    width: 8rem;
+}
+div.logoImg .logo6{
+    display: inline-flexbox;
+    width: 9%;
+    padding: 1%;
+}
+/* ----section tow start---- */
 
-@media only screen and (min-width: 768px) {
+.Post .leftImg img{
+    float: left;
+    /* width: 33%;
+    padding: 5%; */
+    width: 170px;
+    padding: 8px;
+}
+.Post h1{
+    /* margin: 1px; */
+    padding: 2px;
+    margin-top: 17px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.Post h3{
+    font-size: 20px;
+    padding: 5px;
+    margin: 3px;
+    margin-left: 10px;
+}
+.Post p{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    margin: 2px;
+    margin-left: 10px;
+}
+.Post .rightImg img{
+    float: right;
+    width: 170px;
+    padding: 8px;
+
+}
+.Started {
+    width: 9rem;
+    height: 3rem;
+    margin-left: 109px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
+}
+.Started:hover {
+    font-size: 15px;
+    color: beige;
+    cursor: pointer;
+}
+/* ----section tow end---- */
+ /** footer start **/
+
+footer div{
+    background-color: black;
+    color: white;
+}
+.summary div{
+    padding: 5%;
+}
+.img1 {
+    margin: 10px;
+}
+.img2 {
+    margin: 10px;
+}
+.img3 {
+    margin-left: 30px;
+}
+.foto-left2 {
+    text-align: center;
+    margin-top: 20px;
+}
+.socialMedia a+a {
+    margin-left: 3%;
+}
+.socialMedia a {
+    color: black;
+    background-color: white;
+    padding: 2%;
+}
+.information div{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+.information div h4{
+    margin-bottom: 2%;
+}
+.information div ul li{
+    list-style: none;
+}
+.information div ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer .footer{
+    padding: 2%;
+}
+@media screen and (min-width: 768px) {
+
     /* ----section tow start---- */
     .Post p{
         text-decoration: none;
@@ -146,31 +291,142 @@ footer .footer{
 /* ----section tow end---- */
     /* footer */
 footer div{
-display: grid;
-grid-template-columns: 50% 50%;
-grid-template-rows: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
 }
 .information{
-display: grid;
-grid-template-columns: 25% 25% 25% 25%;
-padding: 5%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 5%;
 }
 .socialMedia{
-display: flex;
+    display: flex;
 }
 .socialMedia a{
-color: black;
-background-color: white;
-height: 15%;
-width: 8%;
-padding: 2%;
+    color: black;
+    background-color: white;
+    height: 15%;
+    width: 8%;
+    padding: 2%;
 }
 /* footer end*/
 
 }
+    .titre-parag {
+        height: 46vh;
+    }
+    .container h2 {
+        font-size: 30px;
+    }
+    .container p {
+        font-size: 26px;
+        margin-top: 25px;
+    }
+    .butons_img {
+        display: flex;
+        flex-direction: row;
+    }
+    .Buttons {
+        width: 60%;
+        margin-top: 70px;
+    }
+    .sign_in {
+        width: 75%;
+        height: 70px;
+        font-size: 17px;
+    }
+    .Post h1{
+        padding: 1px;
+        margin-top: 9px;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .Post h3{
+        font-size: 20px;
+        padding: 5px;
+        margin: 3px;
+        margin-left: 170px;
+    }
+    .Post .leftImg img{
+        float: left;
+        width: 170px;
+        padding: 18px;
+    }
+    .Post .rightImg img{
+        float: right;
+        width: 170px;
+        padding: 18px;
 
-@media screen and (min-width: 1024px) {
-        /* ----section tow start---- */
+    }
+    .Img-signup {
+        height: 22%;
+        width: 47%;
+        display: flex;
+        position: absolute;
+        margin-left: 392px;
+    }
+    .fotos {
+        margin-top: 9rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-left: 10 
+    }
+    .fotos-left1 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 0%;
+    }
+    .img1 {
+        width: 340px;
+        height: 205px;
+        margin-bottom: 1rem;
+    }
+    .img2 {
+        margin-left: 2rem;
+        width: 305px;
+        height: 185px;
+        padding-top: 0px;
+        margin-top: 5px;
+    }
+    .foto-left2 {
+        height: 342px;
+        margin-top: 0px;
+        
+    }
+    .img3 {
+        height: 410px;
+    }
+    .fotos-right1 {
+        width: 86%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+    }
+    .img4 {
+        margin-bottom: 1rem;
+    }
+    .fotos-right2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .img6 {
+        height: 65%;
+        width: 40%;
+        margin-left: 45px;
+    }
+    .img7 {
+        height: 65%;
+        width: 45%;
+        margin-right: 28px;
+        margin-top: 0px;
+    }
+    @media screen and (min-width: 1024px) {
+         /* ----section tow start---- */
     .Post .List{
         /* background-color: #bc38dd; */
         padding: 20px;
@@ -207,4 +463,91 @@ padding: 2%;
         background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
     }
         /* ----section tow end---- */
+        .titre-parag {
+            height: 53vh;
+        }
+        .butons_img {
+            display: flex;
+            flex-direction: row;
+        }
+        .Buttons {
+            width: 42%;
+        }
+        .Img-signup {
+            width: 46%;
+            height: 38%;
+            margin-left: 520px;
+        }
+        .Buttons {
+            margin-top: 35px;
+        }
+        /* .fotos {
+            margin-top: 200px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+        .fotos-left1 {
+            width: 26%;
+            text-align: left;
+        }
+        .fotos-right1 {
+            display: flex;
+            flex-direction: column;
+            margin-right: 0px;
+        }
+        .img4 {
+            width: 32%;
+        }
+        .img5 {
+            width: 32%;
+        }
+        .fotos-right2 {
+            display: flex;
+            flex-direction: column;
+        }
+        .img6 {
+            margin: 0px;
+            width: 90%;
+        }
+        .img7 {
+            height: 47%;
+            width: 90%;
+            margin-top: 20px;
+        } */
+    }
+}
+    .Started {
+        margin-top: 20px;
+        width: 9rem;
+        height: 3rem;
+        margin-left: 109px;
+        border: none;
+        border-radius: 5px;
+        background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
+    }
+/* ----section tow end---- */
+    /* footer */
+footer div{
+display: grid;
+grid-template-columns: 50% 50%;
+grid-template-rows: 100%;
+}
+.information{
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+padding: 5%;
+}
+.socialMedia{
+display: flex;
+}
+.socialMedia a{
+color: black;
+background-color: white;
+height: 15%;
+width: 8%;
+padding: 2%;
+}
+/* footer end*/
+
 }
