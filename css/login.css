@@ -40,3 +40,23 @@ input[type=submit]{
     background-color: black;
     color: white;
 }
+@media only screen and (min-width: 768px) {
+    section{
+        margin-top: 30vh;
+        margin-right: 10vh;
+        width: 40%;
+    }
+    input{
+        width: 25vw;
+    }
+    img{
+        position: relative;
+        top: 30vh;
+        width: 30vw;
+        height: 70vh;
+    }
+    body{
+        display:flex;
+        flex-direction: row-reverse;
+    }
+}
