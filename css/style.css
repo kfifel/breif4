@@ -1,3 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+div.container{
+    margin: 1% 5%;
+}
+
+header{
+    width:100%;
+    position: relative;
+}
+
+header h1{
+    margin-top: 2.5%;
+    text-align:center;
+}
+
+header nav{
+    display:none;
+    background-color: #ffffff;
+    width:100%;
+    height: 35vh;
+    position: absolute;
+    text-align: left;
+}
+
+header nav ul{
+    list-style: none;
+    font-weight: bold;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav div button{
+    display: block;
+    width:30%;
+    margin-top:2%;
+}
+
+.login{
+    background-color: black;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.signUp{
+    background-color: transparent;
+    border: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-weight: bolder;
+    font-size:medium;
+}
+
+.navtog:checked ~ nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.mobmenu{
+    position: absolute;
+    top:2.5%;
+    font-size: 150%;
+}
+
+.refComnty{
+    margin-top: 10%;
+    display: block;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.refComnty img{
+    width: 50%;
+    height: auto;
+}
+
+.texts{
+    display: block;
+    color: white;
+}
+
+.promoCode{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.promoCode input{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 3px;
+    border: none;
+}
+
+.promoCode button{
+    margin-top: 5%;
+    padding:2%;
+    margin-left:15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
+    color: white;
+    font-weight:bold;
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -69,7 +196,7 @@ div.logoImg .logo6{
     cursor: pointer;
 }
 /* ----section tow end---- */
- /** footer start **/
+/** footer start **/
 
 footer div{
     background-color: black;
@@ -128,10 +255,10 @@ footer .footer{
 }
 .Buttons {
     display: flex;
-    align-items: center;  
+    align-items: center;
     padding: 14px;
     margin-top: 10px;
-      
+
 }
 .sign_in {
     display: flex;
@@ -204,7 +331,7 @@ div.logoImg .logo6{
     cursor: pointer;
 }
 /* ----section tow end---- */
- /** footer start **/
+/** footer start **/
 
 footer div{
     background-color: black;
@@ -295,143 +422,229 @@ footer .footer{
         border-radius: 5px;
         background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
     }
-/* ----section tow end---- */
+    /* ----section tow end---- */
     /* footer */
-footer div{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
+    footer div{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+    }
+    .information{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        padding: 5%;
+    }
+    .socialMedia{
+        display: flex;
+    }
+    .socialMedia a{
+        color: black;
+        background-color: white;
+        height: 15%;
+        width: 8%;
+        padding: 2%;
+    }
+    /* footer end*/
+
 }
-.information{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    padding: 5%;
+.titre-parag {
+    /*height: 46vh; */
 }
-.socialMedia{
+.container h2 {
+    font-size: 30px;
+}
+.container p {
+    font-size: 26px;
+    margin-top: 25px;
+}
+.butons_img {
     display: flex;
+    flex-direction: row;
 }
-.socialMedia a{
-    color: black;
-    background-color: white;
-    height: 15%;
-    width: 8%;
-    padding: 2%;
+.Buttons {
+    width: 60%;
+    margin-top: 70px;
 }
-/* footer end*/
+.sign_in {
+    width: 75%;
+    height: 70px;
+    font-size: 17px;
+}
+.Post h1{
+    padding: 1px;
+    margin-top: 9px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.Post h3{
+    font-size: 20px;
+    padding: 5px;
+    margin: 3px;
+    margin-left: 170px;
+}
+.Post .leftImg img{
+    float: left;
+    width: 170px;
+    padding: 18px;
+}
+.Post .rightImg img{
+    float: right;
+    width: 170px;
+    padding: 18px;
 
 }
-    .titre-parag {
-        /*height: 46vh; */
+.Img-signup {
+    height: 22%;
+    width: 47%;
+    display: flex;
+    position: absolute;
+    margin-left: 40vw;
+}
+.fotos {
+    margin-top: 9rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.fotos-left1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 0%;
+}
+.img1 {
+    width: 340px;
+    height: 205px;
+    margin-bottom: 1rem;
+}
+.img2 {
+    width: 305px;
+    height: 185px;
+    padding-top: 0px;
+    margin-top: 5px;
+}
+.foto-left2 {
+    height: 342px;
+    margin-top: 0px;
+
+}
+.img3 {
+    height: 410px;
+}
+.fotos-right1 {
+    width: 86%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+.img4 {
+    margin-bottom: 1rem;
+}
+.fotos-right2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.img6 {
+    height: 65%;
+    width: 40%;
+    margin-left: 45px;
+}
+.img7 {
+    height: 65%;
+    width: 45%;
+    margin-right: 28px;
+    margin-top: 0px;
+}
+@media screen and (min-width: 1024px) {
+
+    .navtog{
+        display: none;
     }
-    .container h2 {
-        font-size: 30px;
-    }
-    .container p {
-        font-size: 26px;
-        margin-top: 25px;
-    }
-    .butons_img {
-        display: flex;
-        flex-direction: row;
-    }
-    .Buttons {
-        width: 60%;
-        margin-top: 70px;
-    }
-    .sign_in {
-        width: 75%;
-        height: 70px;
-        font-size: 17px;
-    }
-    .Post h1{
-        padding: 1px;
-        margin-top: 9px;
-        font-size: 20px;
-        margin-left: 30px;
-    }
-    .Post h3{
-        font-size: 20px;
-        padding: 5px;
-        margin: 3px;
-        margin-left: 170px;
-    }
-    .Post .leftImg img{
-        float: left;
-        width: 170px;
-        padding: 18px;
-    }
-    .Post .rightImg img{
-        float: right;
-        width: 170px;
-        padding: 18px;
+    header h1{
+        text-align:center;
+        margin-bottom: 1.5em;
+        padding: 0.3%;
 
     }
-    .Img-signup {
-        height: 22%;
-        width: 47%;
+    .mobmenu{
+        display: none;
+    }
+    header nav {
+        display: contents;
+    }
+    header{
         display: flex;
-        position: absolute;
-        margin-left: 40vw;
-    }
-    .fotos {
-        margin-top: 9rem;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-    }
-    .fotos-left1 {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        height: 0%;
-    }
-    .img1 {
-        width: 340px;
-        height: 205px;
-        margin-bottom: 1rem;
-    }
-    .img2 {
-        width: 305px;
-        height: 185px;
-        padding-top: 0px;
-        margin-top: 5px;
-    }
-    .foto-left2 {
-        height: 342px;
-        margin-top: 0px;
-        
-    }
-    .img3 {
-        height: 410px;
-    }
-    .fotos-right1 {
-        width: 86%;
-        height: 20%;
-        display: flex;
-        flex-direction: row;
-    }
-    .img4 {
-        margin-bottom: 1rem;
-    }
-    .fotos-right2 {
-        display: flex;
-        flex-direction: row;
         justify-content: space-between;
-        
+        align-items: center;
     }
-    .img6 {
-        height: 65%;
-        width: 40%;
-        margin-left: 45px;
+
+    header nav ul{
+        display: flex;
+        flex-direction : row;
     }
-    .img7 {
-        height: 65%;
-        width: 45%;
-        margin-right: 28px;
+
+    header nav ul li{
+        padding: 20px;
+    }
+
+    header nav div {
+        display: flex;
+        margin-left: 80px
+    }
+
+    header nav div button{
+        height: 20%;
+        width: 70px;
+        margin-right: 5px;
+    }
+
+    .refComnty{
+        display: block;
+        margin-top: 0%;
+    }
+
+    .texts{
+        position: relative;
+        top: 80px;
+        left: 100px;
+        width: 50%;
+        text-align: left;
+    }
+
+    .promoCode{
+        margin-top: 40px;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .promoCode button{
         margin-top: 0px;
+        height: 3.1rem;
+        margin-left: 10px;
+        display: flex;
+        padding-top: 1.5%;
     }
-    @media screen and (min-width: 1024px) {
-                                /* ----section tow start---- */
+
+    .promoCode input{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        width:30%;
+        height : 3rem;
+    }
+
+    .refComnty img{
+        position: absolute;
+        height: 18rem;
+        width: auto;
+        top : 20%;
+        right: 5%;
+        text-align: left;
+    }
+    /* ----section tow start---- */
     .Post .List{
         /* background-color: #bc38dd; */
         padding: 20px;
@@ -451,14 +664,14 @@ footer div{
         float: left;
         width: 287px;
         padding: 2px;
-     }
-     .Post .rightImg img{
+    }
+    .Post .rightImg img{
         float: right;
         width: 287px;
         padding: 2px;
 
-     }
-     .Started {
+    }
+    .Started {
         margin-top: 24px;
         width: 11rem;
         height: 3rem;
@@ -467,25 +680,25 @@ footer div{
         border-radius: 5px;
         background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
     }
-        /* ----section tow end---- */
-        /*.titre-parag {
-            height: 53vh;
-        }*/
-        .butons_img {
-            display: flex;
-            flex-direction: row;
-        }
-        .Buttons {
-            width: 50%;
-        }
-        .Img-signup {
-            width: 46%;
-            height: 38%;
-            margin-left: 35vw;
-        }
-        .Buttons {
-            margin-top: 35px;
-        }
+    /* ----section tow end---- */
+    /*.titre-parag {
+        height: 53vh;
+    }*/
+    .butons_img {
+        display: flex;
+        flex-direction: row;
+    }
+    .Buttons {
+        width: 50%;
+    }
+    .Img-signup {
+        width: 46%;
+        height: 38%;
+        margin-left: 35vw;
+    }
+    .Buttons {
+        margin-top: 35px;
+    }
     .Started {
         margin-top: 20px;
         width: 9rem;
@@ -495,6 +708,8 @@ footer div{
         border-radius: 5px;
         background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
     }
-        /* ----section tow end---- */
-            /* footer */
+    /* ----section tow end---- */
+    /* footer */
+
 }
+
