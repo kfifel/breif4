@@ -7,6 +7,9 @@
 div.container{
     margin: 1% 5%;
 }
+.fotos{
+    background-color:white;
+}
 div.logoImg .logo{
     display: inline-flex;
     width: 15%;
@@ -104,9 +107,11 @@ footer .footer{
 }
 .titre-parag {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
     width: 90vw;
     /* height: 40vh;*/
+}
+.titre-parag .container{
+    background-color: black;
 }
 .container h2 {
     color: white;
@@ -209,6 +214,8 @@ footer div{
     padding: 5%;
 }
 .img1 {
+    width: 50vw;
+    height: 20vh;
     margin: 10px;
 }
 .img2 {
@@ -364,14 +371,13 @@ footer div{
         width: 47%;
         display: flex;
         position: absolute;
-        margin-left: 392px;
+        margin-left: 40vw;
     }
     .fotos {
         margin-top: 9rem;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        margin-left: 10%;
     }
     .fotos-left1 {
         display: flex;
@@ -385,7 +391,6 @@ footer div{
         margin-bottom: 1rem;
     }
     .img2 {
-        margin-left: 2rem;
         width: 305px;
         height: 185px;
         padding-top: 0px;
@@ -471,12 +476,12 @@ footer div{
             flex-direction: row;
         }
         .Buttons {
-            width: 42%;
+            width: 50%;
         }
         .Img-signup {
             width: 46%;
             height: 38%;
-            margin-left: 520px;
+            margin-left: 35vw;
         }
         .Buttons {
             margin-top: 35px;
@@ -492,25 +497,4 @@ footer div{
     }
         /* ----section tow end---- */
             /* footer */
-
-        /* abonor */
-        /*
-        .titre-parag {
-            height: 53vh;
-        }*/
-        .butons_img {
-            display: flex;
-            flex-direction: row;
-        }
-        .Buttons {
-            width: 42%;
-        }
-        .Img-signup {
-            width: 46%;
-            height: 38%;
-            margin-left: 520px;
-        }
-        .Buttons {
-            margin-top: 35px;
-        }
 }
