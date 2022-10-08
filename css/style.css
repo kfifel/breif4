@@ -8,12 +8,12 @@ div.container{
     margin: 1% 5%;
 }
 div.logoImg .logo{
-    display: inline-flexbox;
+    display: inline-flex;
     width: 15%;
     padding: 2%;
 }
 div.logoImg .logo6{
-    display: inline-flexbox;
+    display: inline-flex;
     width: 9%;
     padding: 1%;
 }
@@ -106,7 +106,7 @@ footer .footer{
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     width: 90vw;
-    height: 40vh;
+    /* height: 40vh;*/
 }
 .container h2 {
     color: white;
@@ -146,7 +146,7 @@ footer .footer{
     width: 8rem;
 }
 div.logoImg .logo6{
-    display: inline-flexbox;
+    display: inline-flex;
     width: 9%;
     padding: 1%;
 }
@@ -314,7 +314,7 @@ footer div{
 
 }
     .titre-parag {
-        height: 46vh;
+        /*height: 46vh; */
     }
     .container h2 {
         font-size: 30px;
@@ -371,7 +371,7 @@ footer div{
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        margin-left: 10 
+        margin-left: 10%;
     }
     .fotos-left1 {
         display: flex;
@@ -426,7 +426,7 @@ footer div{
         margin-top: 0px;
     }
     @media screen and (min-width: 1024px) {
-         /* ----section tow start---- */
+                                /* ----section tow start---- */
     .Post .List{
         /* background-color: #bc38dd; */
         padding: 20px;
@@ -463,9 +463,9 @@ footer div{
         background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
     }
         /* ----section tow end---- */
-        .titre-parag {
+        /*.titre-parag {
             height: 53vh;
-        }
+        }*/
         .butons_img {
             display: flex;
             flex-direction: row;
@@ -481,42 +481,6 @@ footer div{
         .Buttons {
             margin-top: 35px;
         }
-        /* .fotos {
-            margin-top: 200px;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-        }
-        .fotos-left1 {
-            width: 26%;
-            text-align: left;
-        }
-        .fotos-right1 {
-            display: flex;
-            flex-direction: column;
-            margin-right: 0px;
-        }
-        .img4 {
-            width: 32%;
-        }
-        .img5 {
-            width: 32%;
-        }
-        .fotos-right2 {
-            display: flex;
-            flex-direction: column;
-        }
-        .img6 {
-            margin: 0px;
-            width: 90%;
-        }
-        .img7 {
-            height: 47%;
-            width: 90%;
-            margin-top: 20px;
-        } */
-    }
-}
     .Started {
         margin-top: 20px;
         width: 9rem;
@@ -526,28 +490,27 @@ footer div{
         border-radius: 5px;
         background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
     }
-/* ----section tow end---- */
-    /* footer */
-footer div{
-display: grid;
-grid-template-columns: 50% 50%;
-grid-template-rows: 100%;
-}
-.information{
-display: grid;
-grid-template-columns: 25% 25% 25% 25%;
-padding: 5%;
-}
-.socialMedia{
-display: flex;
-}
-.socialMedia a{
-color: black;
-background-color: white;
-height: 15%;
-width: 8%;
-padding: 2%;
-}
-/* footer end*/
+        /* ----section tow end---- */
+            /* footer */
 
+        /* abonor */
+        /*
+        .titre-parag {
+            height: 53vh;
+        }*/
+        .butons_img {
+            display: flex;
+            flex-direction: row;
+        }
+        .Buttons {
+            width: 42%;
+        }
+        .Img-signup {
+            width: 46%;
+            height: 38%;
+            margin-left: 520px;
+        }
+        .Buttons {
+            margin-top: 35px;
+        }
 }
