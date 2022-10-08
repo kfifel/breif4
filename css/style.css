@@ -170,9 +170,12 @@ header nav div button{
     width: 70px;
     margin-right: 5px;
 }
+
 .refComnty{
+    display: block;
     margin-top: 0%;
 }
+
 .texts{
     position: relative;
     top: 80px;
@@ -182,28 +185,34 @@ header nav div button{
 }
 
 .promoCode{
-    
     margin-top: 40px;
-    padding-left: 0;
+    margin-left: 10%;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .promoCode button{
-    margin: 0;
+    margin-top: 0px;
+    height: 3.1rem;
+    margin-left: 10px;
+    display: flex;
+    padding-top: 1.5%;
 }
-.promoCode input{
-    width:200px;
 
+.promoCode input{
+    padding-top: 0px;
+    padding-bottom: 0px; 
+    width:30%;
+    height : 3rem;
 }
 
 .refComnty img{
     position: absolute;
-    height: 15rem; 
+    height: 18rem; 
     width: auto;
-    top : 1000%;
-    /* top: 20%; */
-    right: 10%;
+    top : 20%;
+    right: 5%;
     text-align: left;
 }
 
