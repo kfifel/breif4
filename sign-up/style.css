@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(193, 185, 224);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 50%;
+    height: 640px;   
+    background-color: rgb(235, 175, 175);
+    margin: auto;
+    border: solid 2px beige;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 5px gray;
+}
+h1 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container p {
+    text-align: center;
+    color: rgb(63, 62, 62);
+    font-weight: bold;
+    font-size: 13px;
+    padding: 7px;
+}
+form {
+    width: 60%; /*60% from container width*/
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input {
+    width: 100%; /*100% from form width*/
+    padding: 7px;
+    border: solid 1px brown;
+    border-radius: 7px;
+}
+input[type="button"] {
+    width: 50%; /*50% from form width*/
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(235, 235, 155);
+    color: brown;
+    font-size: 14px;
+    font-weight: bold;
+}
+input[type="button"]:hover {
+    background-color: black;
+    color: beige;
+    cursor: pointer;
+}
+@media screen and (min-width: 1024px) {
+    form {
+        margin: auto;
+    }
+}
