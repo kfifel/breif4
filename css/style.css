@@ -72,10 +72,6 @@ header nav div button{
     flex-direction: column;
 }
 
-.navtog{
-    display: none;
-}
-
 .mobmenu{
     position: absolute;
     top:2.5%;
@@ -129,92 +125,591 @@ header nav div button{
     color: white;
     font-weight:bold;
 }
-
-
-@media (min-width: 1024px){
-
-header h1{
-    text-align:center;
-    margin-bottom: 1.5em;
-    padding: 0.3%;
-   
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
 }
-.mobmenu{
-    display: none;
+div.container{
+    margin: 1% 5%;
 }
-header nav {
-    display: contents;
+.fotos{
+    background-color:white;
 }
-header{
+div.logoImg .logo{
+    display: inline-flex;
+    width: 15%;
+    padding: 2%;
+}
+div.logoImg .logo6{
+    display: inline-flex;
+    width: 9%;
+    padding: 1%;
+}
+/* ----section tow start---- */
+
+.Post .leftImg img{
+    float: left;
+    /* width: 33%;
+    padding: 5%; */
+    width: 170px;
+    padding: 8px;
+}
+.Post h1{
+    /* margin: 1px; */
+    padding: 2px;
+    margin-top: 17px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.Post h3{
+    font-size: 20px;
+    padding: 5px;
+    margin: 3px;
+    margin-left: 10px;
+}
+.Post p{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    margin: 2px;
+    margin-left: 10px;
+}
+.Post .rightImg img{
+    float: right;
+    width: 170px;
+    padding: 8px;
+
+}
+.Started {
+    width: 9rem;
+    height: 3rem;
+    margin-left: 109px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
+}
+.Started:hover {
+    font-size: 15px;
+    color: beige;
+    cursor: pointer;
+}
+/* ----section tow end---- */
+/** footer start **/
+
+footer div{
+    background-color: black;
+    color: white;
+}
+.summary div{
+    padding: 5%;
+}
+.socialMedia a+a {
+    margin-left: 3%;
+}
+.socialMedia a {
+    color: black;
+    background-color: white;
+    padding: 2%;
+}
+.information div{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    padding: 5%;
+}
+.information div h4{
+    margin-bottom: 2%;
+}
+.information div ul li{
+    list-style: none;
+}
+.information div ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer{
+    padding: 2%;
+}
+.titre-parag {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90vw;
+    /* height: 40vh;*/
+}
+.titre-parag .container{
+    background-color: black;
+}
+.container h2 {
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+.titre-parag p {
+    margin: 5px;
+    color: white;
+    font-size: 17px;
+}
+.Img-signup {
+    margin-left: 50px;
+}
+.Buttons {
+    display: flex;
     align-items: center;
-}
+    padding: 14px;
+    margin-top: 10px;
 
-header nav ul{
+}
+.sign_in {
     display: flex;
-    flex-direction : row;
+    align-items: center;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    font-size: 14px;
 }
-
-header nav ul li{
-    padding: 20px;
+.sign_in:hover {
+    cursor: pointer;
+    box-shadow: 1px 3px rgb(211, 211, 199);
 }
-
-header nav div {
-    display: flex; 
-    margin-left: 80px
+.exploring {
+    width: 8rem;
 }
-
-header nav div button{
-    height: 20%;
-    width: 70px;
-    margin-right: 5px;
+div.logoImg .logo6{
+    display: inline-flex;
+    width: 9%;
+    padding: 1%;
 }
+/* ----section tow start---- */
 
-.refComnty{
-    display: block;
-    margin-top: 0%;
+.Post .leftImg img{
+    float: left;
+    /* width: 33%;
+    padding: 5%; */
+    width: 170px;
+    padding: 8px;
 }
-
-.texts{
-    position: relative;
-    top: 80px;
-    left: 100px;
-    width: 50%;
-    text-align: left;
+.Post h1{
+    /* margin: 1px; */
+    padding: 2px;
+    margin-top: 17px;
+    font-size: 30px;
+    margin-left: 50px;
 }
+.Post h3{
+    font-size: 20px;
+    padding: 5px;
+    margin: 3px;
+    margin-left: 10px;
+}
+.Post p{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    margin: 2px;
+    margin-left: 10px;
+}
+.Post .rightImg img{
+    float: right;
+    width: 170px;
+    padding: 8px;
 
-.promoCode{
-    margin-top: 40px;
-    margin-left: 10%;
+}
+.Started {
+    width: 9rem;
+    height: 3rem;
+    margin-left: 109px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
+}
+.Started:hover {
+    font-size: 15px;
+    color: beige;
+    cursor: pointer;
+}
+/* ----section tow end---- */
+/** footer start **/
+
+footer div{
+    background-color: black;
+    color: white;
+}
+.summary div{
+    padding: 5%;
+}
+.img1 {
+    width: 50vw;
+    height: 20vh;
+    margin: 10px;
+}
+.img2 {
+    margin: 10px;
+}
+.img3 {
+    margin-left: 30px;
+}
+.foto-left2 {
+    text-align: center;
+    margin-top: 20px;
+}
+.socialMedia a+a {
+    margin-left: 3%;
+}
+.socialMedia a {
+    color: black;
+    background-color: white;
+    padding: 2%;
+}
+.information div{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+.information div h4{
+    margin-bottom: 2%;
+}
+.information div ul li{
+    list-style: none;
+}
+.information div ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer .footer{
+    padding: 2%;
+}
+@media screen and (min-width: 768px) {
+
+    /* ----section tow start---- */
+    .Post p{
+        text-decoration: none;
+        font-size: 12px;
+        padding: 2px;
+        margin: 2px;
+    }
+    .Post h1{
+        padding: 1px;
+        margin-top: 9px;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .Post h3{
+        font-size: 20px;
+        padding: 5px;
+        margin: 3px;
+        margin-left: 170px;
+    }
+    .Post .leftImg img{
+        float: left;
+        width: 170px;
+        padding: 18px;
+    }
+    .Post .rightImg img{
+        float: right;
+        width: 170px;
+        padding: 18px;
+
+    }
+    .Started {
+        margin-top: 20px;
+        width: 9rem;
+        height: 3rem;
+        margin-left: 109px;
+        border: none;
+        border-radius: 5px;
+        background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
+    }
+    /* ----section tow end---- */
+    /* footer */
+    footer div{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+    }
+    .information{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        padding: 5%;
+    }
+    .socialMedia{
+        display: flex;
+    }
+    .socialMedia a{
+        color: black;
+        background-color: white;
+        height: 15%;
+        width: 8%;
+        padding: 2%;
+    }
+    /* footer end*/
+
+}
+.titre-parag {
+    /*height: 46vh; */
+}
+.container h2 {
+    font-size: 30px;
+}
+.container p {
+    font-size: 26px;
+    margin-top: 25px;
+}
+.butons_img {
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
+.Buttons {
+    width: 60%;
+    margin-top: 70px;
+}
+.sign_in {
+    width: 75%;
+    height: 70px;
+    font-size: 17px;
+}
+.Post h1{
+    padding: 1px;
+    margin-top: 9px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.Post h3{
+    font-size: 20px;
+    padding: 5px;
+    margin: 3px;
+    margin-left: 170px;
+}
+.Post .leftImg img{
+    float: left;
+    width: 170px;
+    padding: 18px;
+}
+.Post .rightImg img{
+    float: right;
+    width: 170px;
+    padding: 18px;
 
-.promoCode button{
-    margin-top: 0px;
-    height: 3.1rem;
-    margin-left: 10px;
+}
+.Img-signup {
+    height: 22%;
+    width: 47%;
     display: flex;
-    padding-top: 1.5%;
-}
-
-.promoCode input{
-    padding-top: 0px;
-    padding-bottom: 0px; 
-    width:30%;
-    height : 3rem;
-}
-
-.refComnty img{
     position: absolute;
-    height: 18rem; 
-    width: auto;
-    top : 20%;
-    right: 5%;
-    text-align: left;
+    margin-left: 40vw;
 }
+.fotos {
+    margin-top: 9rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.fotos-left1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 0%;
+}
+.img1 {
+    width: 340px;
+    height: 205px;
+    margin-bottom: 1rem;
+}
+.img2 {
+    width: 305px;
+    height: 185px;
+    padding-top: 0px;
+    margin-top: 5px;
+}
+.foto-left2 {
+    height: 342px;
+    margin-top: 0px;
+
+}
+.img3 {
+    height: 410px;
+}
+.fotos-right1 {
+    width: 86%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+.img4 {
+    margin-bottom: 1rem;
+}
+.fotos-right2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.img6 {
+    height: 65%;
+    width: 40%;
+    margin-left: 45px;
+}
+.img7 {
+    height: 65%;
+    width: 45%;
+    margin-right: 28px;
+    margin-top: 0px;
+}
+@media screen and (min-width: 1024px) {
+
+    .navtog{
+        display: none;
+    }
+    header h1{
+        text-align:center;
+        margin-bottom: 1.5em;
+        padding: 0.3%;
+
+    }
+    .mobmenu{
+        display: none;
+    }
+    header nav {
+        display: contents;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header nav ul{
+        display: flex;
+        flex-direction : row;
+    }
+
+    header nav ul li{
+        padding: 20px;
+    }
+
+    header nav div {
+        display: flex;
+        margin-left: 80px
+    }
+
+    header nav div button{
+        height: 20%;
+        width: 70px;
+        margin-right: 5px;
+    }
+
+    .refComnty{
+        display: block;
+        margin-top: 0%;
+    }
+
+    .texts{
+        position: relative;
+        top: 80px;
+        left: 100px;
+        width: 50%;
+        text-align: left;
+    }
+
+    .promoCode{
+        margin-top: 40px;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .promoCode button{
+        margin-top: 0px;
+        height: 3.1rem;
+        margin-left: 10px;
+        display: flex;
+        padding-top: 1.5%;
+    }
+
+    .promoCode input{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        width:30%;
+        height : 3rem;
+    }
+
+    .refComnty img{
+        position: absolute;
+        height: 18rem;
+        width: auto;
+        top : 20%;
+        right: 5%;
+        text-align: left;
+    }
+    /* ----section tow start---- */
+    .Post .List{
+        /* background-color: #bc38dd; */
+        padding: 20px;
+        margin: 20px;
+        margin-left: 150px;
+
+    }
+    .Post .List p{
+        font-size: large;
+        margin-left: 170px;
+    }
+    .Post .List h1{
+        margin-left: 170px;
+        font-size: 30px;
+    }
+    .Post .leftImg img{
+        float: left;
+        width: 287px;
+        padding: 2px;
+    }
+    .Post .rightImg img{
+        float: right;
+        width: 287px;
+        padding: 2px;
+
+    }
+    .Started {
+        margin-top: 24px;
+        width: 11rem;
+        height: 3rem;
+        margin-left: 155px;
+        border: none;
+        border-radius: 5px;
+        background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
+    }
+    /* ----section tow end---- */
+    /*.titre-parag {
+        height: 53vh;
+    }*/
+    .butons_img {
+        display: flex;
+        flex-direction: row;
+    }
+    .Buttons {
+        width: 50%;
+    }
+    .Img-signup {
+        width: 46%;
+        height: 38%;
+        margin-left: 35vw;
+    }
+    .Buttons {
+        margin-top: 35px;
+    }
+    .Started {
+        margin-top: 20px;
+        width: 9rem;
+        height: 3rem;
+        margin-left: 109px;
+        border: none;
+        border-radius: 5px;
+        background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);
+    }
+    /* ----section tow end---- */
+    /* footer */
 
 }
 
