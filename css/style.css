@@ -28,7 +28,7 @@ header nav{
     display:none;
     background-color: #ffffff;
     width:100%;
-    height: 35vh;
+    height: 40vh;
     position: absolute;
     text-align: left;
 }
@@ -75,6 +75,9 @@ header nav div button{
     color: black;
 }
 
+.navtog{
+    display: none;
+}
 .navtog:checked ~ nav{
     display: flex;
     flex-direction: column;
