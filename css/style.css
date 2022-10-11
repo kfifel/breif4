@@ -161,10 +161,10 @@ div.container{
     cursor: pointer;
 }
 
-        /* ----section tow end max-width: 768px---- */
+        /* ----section tow end max-width: 768px---- */             /* ----section tow start min-width: 1024px---- */
 
 }
-                 /* ----section tow start min-width: 1024px---- */
+                
 @media screen and (min-width: 1024px) {       
     .Post .List{
         padding: 20px;
@@ -200,5 +200,5 @@ div.container{
         background-image: linear-gradient(to right, #ec5252 6%, #bc38dd  133%, #ec5252  100%);         
     }
         /* ----section tow end min-width: 1024px---- */
-        /* ----section tow end---- */
+    
 }
