@@ -1,25 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'poppins', sans-serif;
 }
 body{
-    background-color: #FF7790;
+    background-color: white;
+
 }
-img{
-    position: relative;
-    z-index: 1;
-    width: 150px;
-    height: 300px;
+.cat{
+    display: none;
 }
+
 input{
     margin-top: 5%;
     padding: .6rem;
     border-radius: .6rem;
     border: 1px solid #bdb1be;
     width: 50vw;
+    
 }
 section{
+    border: 3px solid black;
     margin-top: 5vh;
     background-color: white;
     border-radius: 20px;
@@ -48,12 +51,15 @@ input[type=submit]{
     }
     input{
         width: 25vw;
+        
     }
-    img{
-        position: relative;
-        top: 30vh;
-        width: 30vw;
-        height: 70vh;
+    .cat{
+        display: block;
+        position: absolute;
+        top: 30%;
+        right: 55%;
+        width: 40%;
+        height: auto;
     }
     body{
         display:flex;
